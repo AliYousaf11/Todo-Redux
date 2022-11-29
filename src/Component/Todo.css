@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Main {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 2%,
+    rgba(9, 9, 121, 1) 28%,
+    rgba(0, 212, 255, 1) 80%
+  );
+  height: 100vh;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 3rem;
+  padding: 3rem 0;
+}
+.Content > input {
+  border-radius: 3rem;
+  padding: 0.7rem 13rem 0.7rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  color: black;
+}
+.Content > button {
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  margin: 1rem 0 0 -2rem;
+  background: none;
+}
+.Sub_Content {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  transform: translate(40%, 50%);
+}
+.Sub_Content > h3 {
+  border-radius: 3rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  background-color: white;
+  padding: 0.7rem 13rem 0.7rem 2rem;
+}
+.Sub_Content > button {
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  margin-left: -2rem;
+  background: none;
+}
+.Reset {
+  background-color: white;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  margin-top: 5%;
+  border-radius: 3rem;
+}
